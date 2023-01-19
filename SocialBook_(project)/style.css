@@ -115,12 +115,12 @@ nav img{
     
     flex-basis: 25%;
     position: sticky;
-    height: 500px;
+    height: 1000px;
     top: 70px;
     align-self: flex-start;
     background-color: white;
     padding: 20px; 
-    border-radius: 5px;
+    border-radius: 2px;
     color: #626262;
 }
 
@@ -202,18 +202,73 @@ nav img{
 
 .left-event{
     text-align: center;
-    border: 1px solid #626262;
     border-radius: 5px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
     padding: 4px;
-    box-shadow: 0 0 5px 1px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .left-event span{
-    font-size:medium;
+    font-size:10px;
     font-weight: 100;
+    color: #fff;
+    background-color: #1876f2;
+    position:absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top:10px;
+    padding-bottom: 5px;
 }
 
 .right-event{
     margin-left: 15px;
     padding: 1px;
+}
+
+.right-event p{
+    font-size: 12px;
+}
+
+.event{
+    margin-top: 12px;
+}
+
+.advert{
+    position:absolute;
+    top: 220px;
+    width: 88%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.advertisement{
+    width: 100%;
+    position:absolute;
+    left: 0;
+    top: 25px;
+}
+
+.close{
+    margin-left: 160px;
+}
+
+.conversation{
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+
+.online-list{
+    position:relative;
+    right: 300px;
+    top: 30px;
+}
+
+
+.member-1{
+    position: relative;
+    
 }
